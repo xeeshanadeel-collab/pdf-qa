@@ -14,7 +14,7 @@ from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3-flash-preview"  # editable in the sidebar
+DEFAULT_MODEL = "gemini-2.5-flash"  # editable in the sidebar
 CHUNK_CHARS = 12000  # characters of source text per API call
 
 SYSTEM_PROMPT = """You are an expert exam writer. Create multiple-choice questions
