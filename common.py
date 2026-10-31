@@ -13,7 +13,7 @@ from google import genai
 from google.genai import errors, types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3-flash-preview"  # editable in each page's sidebar
+DEFAULT_MODEL = "gemini-2.5-flash"  # editable in each page's sidebar
 NOT_FOUND = "This information is not available in the provided PDF(s)."
 NO_KEY = "GEMINI_API_KEY not found. Add it to .streamlit/secrets.toml."
 
