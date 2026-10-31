@@ -19,7 +19,7 @@ from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3-flash-preview"  # editable in the sidebar
+DEFAULT_MODEL = "gemini-2.5-flash"  # editable in the sidebar
 NOT_FOUND = "This information is not available in the provided PDF(s)."
 
 # ======================= shared helpers =======================
